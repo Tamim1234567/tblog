@@ -1,0 +1,140 @@
+.body{
+    background: black;
+}
+body{
+    background: black;
+}
+
+
+nav{
+   background: #000;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+details{
+    display: none;
+}
+.navlinks a{
+
+    background: #000;
+    color: aqua;
+    padding: 10px;
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.logo img{
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+
+}
+.logo{
+    display: flex;
+    color: aqua;
+
+}
+@media only screen and (max-width: 1000px) {
+    nav{
+        display: none;
+
+    }
+    .cd1 img{
+        display: none;
+    }
+    .cd1{
+        display: none;
+    }
+    col-md-4{
+        display: none;
+
+    }
+    details{
+        display: block;
+    }
+    nav{
+        flex-direction: column;
+      
+    }
+    .navlinks{
+        margin-left: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+        border-radius: 20px;
+
+    }
+    .navlinks a{
+        text-align: center;
+       
+       
+    }
+    nav{
+     background: #000;
+    }
+
+}
+.container1{
+    animation-name: f;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ 
+
+  
+}
+
+
+
+@keyframes f{
+    form{
+     
+      background: rgba(0, 230, 134, 0.897);
+      
+       
+    }
+    to{
+      
+      background: #000;
+       
+       
+    }
+}
+.contact{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.frm{
+    border-right: 5px solid green;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blogpst{
+    margin-top: 100px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid green;
+}
+footer{
+    background: green;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
